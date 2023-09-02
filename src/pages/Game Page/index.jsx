@@ -153,7 +153,7 @@ function index() {
               setShowRule(!showRule);
             }}
           >
-            Show Rules
+           {!showRule ? "Show Rules" : "Hide Rules"}
           </button>
         </div>
         {showRule && (
