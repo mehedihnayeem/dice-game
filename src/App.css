@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora&family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.btn-dark {
+  background: #000;
+  color: #fff;
+  padding: 1em 3em;
+  border-radius: 0.4em;
+  border: none;
+  font-size: 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.4s background ease-in;
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s background ease-in;
+  }
+}
+
+.btn-light {
+  background: #fff;
+  color: #000;
+  padding: 1em 3em;
+  border-radius: 0.4em;
+  border: none;
+  font-size: 16px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.4s background ease-in;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  &:hover {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.3s background ease-in;
+    border: 1px solid transparent;
+  }
+}
+
+.active {
+  background-color: yellow;
+  color: blue;
+}

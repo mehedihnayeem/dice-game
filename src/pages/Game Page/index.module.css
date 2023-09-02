@@ -1,0 +1,87 @@
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: 1em auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.score_and_selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  color: red;
+}
+
+.score h1 {
+  margin-top: 0.3em;
+  font-size: 2.5rem;
+}
+
+.display_dice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.dice_img img {
+  cursor: pointer;
+}
+
+.selector button {
+  padding: 1.1em;
+  margin-left: 0.2em;
+  background: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s background ease-in;
+}
+
+.selector button:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.4s background ease-in;
+}
+
+.selector h4 {
+  margin-top: 0.3em;
+  font-size: 1.2rem;
+}
+
+.selector .active {
+  background: #000;
+  color: #fff;
+}
+
+.showRuleDiv {
+  text-align: start;
+  margin: auto;
+  font-size: 0.8rem;
+  background: #fbf1f1;
+  padding: 1em;
+  margin-top: 2em;
+  border-radius: 0.5em;
+}
+
+@media (max-width: 650px) {
+  .header,
+  .score_and_selector {
+    flex-direction: column;
+    text-align: center;
+  }
+}

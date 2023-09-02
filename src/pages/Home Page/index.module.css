@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+div img {
+  max-width: 80%;
+  height: auto;
+}
+
+div h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5em;
+}
+
+.darkBtn {
+  background: #000;
+  color: #fff;
+  padding: 1em 3em;
+  border-radius: 0.4em;
+  border: none;
+  font-size: 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.4s background ease-in;
+  &:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s background ease-in;
+  }
+}
